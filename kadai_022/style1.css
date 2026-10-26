@@ -1,0 +1,92 @@
+/* step3 */
+@media screen and (max-width: 768px) {
+  div {
+    display: inline;
+    margin: 20px;
+  }
+}
+h1 { 
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+p {
+  display: flex;
+  margin: 0;
+  font-size: 20px;
+}
+
+a {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+/* step4 */
+header {
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:  rgb(244, 79, 79);
+}
+
+/* step5 */
+main {
+  margin: 10px;
+}
+#parent {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.contents {
+  font-weight: 3px;
+  border: color rgb(238, 204, 204);
+  padding: 10px, 15px;
+  margin: 20px, 0px;
+}
+p::first-line {
+    font-weight: bold;
+  }
+div p:nth-of-type(2) {
+  color: rgb(97, 206, 249)
+}
+
+h2 {
+  font-size: 25px;
+
+  font-style: (236, 122, 122);
+  border-bottom: dotted 3px rgb(236, 122, 122);
+}
+h2::before{
+  content: "●";
+  color: rgb(239, 111, 139);
+}
+img {
+  margin: 10px, 0px;
+  height: 70%;
+}
+
+/* step6 */
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(244, 79, 79);
+}
+a:visited {
+  color: rgb(193, 234, 251)
+}
+a:hover {
+  color: rgb(245, 178, 168)
+}
+
+/* step7 */
+h2 {
+  font-size: 30px;
+}
+p {
+  font-size: 25px;
+}
